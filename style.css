@@ -102,10 +102,6 @@ p {
   align-items: center;
 }
 
-.grid {
-  display: grid;
-}
-
 .small_font {
   font-size: .9rem;
   padding-top: 5rem;
@@ -120,6 +116,7 @@ p {
 header {
   background-color: var(--clr--blue--darker);
   font-family: var(--ff--additional);
+  min-height: 400px;
 }
 
 .logo__link {
@@ -401,7 +398,6 @@ footer {
   color: var(--clr--primary--200);
   font-family: var(--ff--additional);
   text-align: right;
-  border-radius: 3px;
 }
 
 @media (max-width: 1300px) {
