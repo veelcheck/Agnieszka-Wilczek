@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agnieszka Wilczek</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Josefin+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="nav-wrapper">
+        <a class="logo__link" href="#">HI!</a>
+        <button class="nav__toggle" aria-controls="nav" aria-expanded="false">
+          <svg fill="var(--clr--primary--200)" class="hamburger" viewbox="0 0 100 100" width="35" height="35">
+            <rect class="line top" width="80" height="10" x="10" y="25" rx="5"></rect>
+            <rect class="line middle" width="80" height="10" x="10" y="45" rx="5"></rect>
+            <rect class="line bottom" width="80" height="10" x="10" y="65" rx="5"></rect>
+          </svg>
+        </button>
+        <nav class="nav" id="nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a class="nav__link" href="#portfolio">portfolio</a></li>
+            <li class="nav__item"><a class="nav__link" href="#skills">skills</a></li>
+            <li class="nav__item"><a class="nav__link" href="#contact">contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container d-flex">
+        <div class="about_me">
+          <h1>Hi, there!</h1>
+          <p>
+            My name is Agnieszka Wilczek. At the beginning of 2023 I didn't know much about coding. Now* I know a bit more, and have decided I like it. I am looking for a nice place to spread my wings, gain experience and grow. As of now, I am developing my skills in HTML5, CSS and JS.</p>
+            <p>
+            In my free time, if I have any, I immerse myself into the Discworld**. Captain Vimes is always good of a companion for an evening.
+            </p>
+            <p class="small_font">* Let me check the calendar... Ah! 24th of August 2023, time irrelevant.<br>
+            ** Terry Pratchett fan? So you understand footnotes.</p>
+        </div>
+
+        <div class="photo-wrapper">
+          <img class="avatar" src="images/cv_photo.jpg" alt="photo of the owner of the page">
+        </div>
+      </div>
+  </section>
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <h2>HTML and CSS work</h2>
+      <h3>Responsive Layouts don't have to be hard.</h3>
+      <div class="smartphone-wrapper d-flex"> 
+        <div class="smartphone">
+          <div class="smartphone__content">
+            <iframe src="https://veelcheck.github.io/responsive/" style="border: 0"></iframe>
+          </div>
+        </div>
+        <div class="device-text">
+          <p>This one is me getting my first grip on responsive layout. It is a project provided by Kevin Powell in his course on responsive layout. The task was to style the starting code according to the design provided. The starting files came with a nav toggle, which I ignored and added it myself later on when I learned how to do JS code.<br><br>If you want to check up the working site click <a class="external-link" href="https://veelcheck.github.io/responsive/">here</a> and if you are interested in the code click <a class="external-link" href="https://github.com/veelcheck/responsive">go here.</a></p>
+        </div>
+      </div>
+      <h3>Colmar Academy - a codecademy project.</h3>
+      <div class="laptop-wrapper">
+        <div class="laptop">
+          <div class="laptop__content">
+            <iframe src="https://veelcheck.github.io/colmar_academy/" style="border: 0"></iframe>
+          </div>
+        </div>
+        <div class="device-text">
+          <p>This project is purely HTML and CSS. I had a rough spec to work with but made my own choices when it came to typography and colour scheme decisions. There was no starting code, I wrote it from scratch. Motto <span class="italic">mobile first</span> worked well for me.<br><br>If you want to check up the working site click <a class="external-link" href="https://veelcheck.github.io/colmar_academy/">here</a> and if you are interested in the code click <a class="external-link" href="https://github.com/veelcheck/colmar_academy/tree/master">go here.</a></p>
+        </div>
+      </div>
+      <h2>JAVA SCRIPT WORK</h2>
+      <div class="java-text">
+        <p>This part is under construction. In the meantime enjoy JavaScript generated clock.</p>
+      </div>
+      <div class="clock">
+        <div class="js-hours"></div>
+        <span class="clock-gap">:</span>
+        <div class="js-minutes"></div>
+        <span class="clock-gap">:</span>
+        <div class="js-seconds"></div>
+        <span class="not-visible clock-gap">:</span>
+        <div class="js-day"></div>
+      </div>
+    </div>
+  </section>
+  <section class="skills" id="skills">
+    <div class="container">
+      <h2>Skills so far</h2>
+      <div class="skills-progress">
+        <div class="skill-wrapper">
+          <p class="skill__title" >HTML & CSS</p>
+          <div class="skill__level"></div>
+          <div class="skill__level"></div>
+          <div class="skill__level"></div>
+          <div class="skill__level not-accomplished"></div>
+          <div class="skill__level not-accomplished"></div>
+          <div class="skill__level not-accomplished"></div>
+        </div>
+
+        <div class="skill-wrapper"><p class="skill__title" >JavaScript</p>
+          <div class="skill__level"></div>
+          <div class="skill__level not-accomplished"></div>
+          <div class="skill__level not-accomplished"></div>
+          <div class="skill__level not-accomplished"></div>
+          <div class="skill__level not-accomplished"></div>
+          <div class="skill__level not-accomplished"></div>
+        </div>
+
+        <div class="skill-wrapper"><p class="skill__title" >Git & GitHub</p>
+          <div class="skill__level"></div>
+          <div class="skill__level"></div>
+          <div class="skill__level not-accomplished"></div>
+          <div class="skill__level not-accomplished"></div>
+          <div class="skill__level not-accomplished"></div>
+          <div class="skill__level not-accomplished"></div>
+        </div>
+
+        <div class="skills-progress">
+          <div class="skill-wrapper"><p class="skill__title" >VS Code</p>
+            <div class="skill__level"></div>
+            <div class="skill__level"></div>
+            <div class="skill__level"></div>
+            <div class="skill__level not-accomplished"></div>
+            <div class="skill__level not-accomplished"></div>
+            <div class="skill__level not-accomplished"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="container">
+      <h2>Contact details</h2>
+      <p class="contact-text">If you're still here it means we either know each other or you have my resume on your desk*. Either way, you know how to find me.</p>
+      <p class="small_font contact-text-small">* Desktop. It's more likely a computer's desktop. Or something. </p>
+    </div>
+  </section>
+  </main>
+  
+  <footer>
+    <div class="container container-footer">
+      <p>&#x24B8; I made this and it's my precious.</p>
+    </div>
+  </footer>
+
+  <script type="module" src="scripts/main.js"></script>
+</body>
+</html>
