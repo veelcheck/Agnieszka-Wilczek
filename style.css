@@ -80,6 +80,7 @@ p {
 
 .external-link {
   color: var(--clr--secondary);
+  opacity: .9;
 }
 
 .external-link:hover {
