@@ -116,7 +116,6 @@ p {
 header {
   background-color: var(--clr--blue--darker);
   font-family: var(--ff--additional);
-  min-height: 400px;
 }
 
 .logo__link {
@@ -415,6 +414,10 @@ footer {
   h2::before {
     left: 53%;
   }
+
+  h3 {
+    margin-left: .5em;
+  }
   
   .d-flex {
     display: block;
@@ -471,7 +474,8 @@ footer {
 
   .smartphone-wrapper p,
   .laptop-wrapper p,
-  .java-text p {
+  .java-text p,
+  .contact-text {
     padding-left: 1em;
     padding-right: .5em;
     padding-bottom: 1em;
@@ -553,6 +557,10 @@ footer {
   .skill-wrapper {
     margin-left: .7em;
     margin-right: .5em;
+  }
+
+  .contact-text-small {
+    padding-left: 1rem;
   }
 }
 
@@ -666,5 +674,4 @@ footer {
     height: 15px;
     width: 15px;
   }
-
 }
