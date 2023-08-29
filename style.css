@@ -1,7 +1,7 @@
 :root {
   --clr--primary--100: lch(94.1% 0 0);
   --clr--primary--200: lch(87.59% 71.11 89.47);
-  --clr--secondary: lch(58.38% 73.54 30.45);
+  --clr--red: lch(58.38% 73.54 30.45);
   --clr--blue--darker: lch(30.74% 22.34 277.05);
   --clr--blue--light: lch(81.14% 18.4 237.29);
   --clr--yellow--light: lch(92.34% 37.06 93.5);
@@ -53,7 +53,7 @@ h2::before {
   height: 14px;
   padding-left: .7em;
   transform: skew(-12deg) translateX(-50%);
-  background: var(--clr--secondary);
+  background: var(--clr--red);
   opacity: .5;
 }
 
@@ -79,7 +79,7 @@ p {
 }
 
 .external-link {
-  color: var(--clr--secondary);
+  color: var(--clr--red);
   opacity: .9;
 }
 
@@ -93,7 +93,7 @@ p {
   max-width: 1200px;
   margin-inline: auto;
   padding-block: .75em;
-  border-left: 2px solid var(--clr--secondary);
+  border-left: 2px solid var(--clr--red);
 }
 
 .d-flex {
@@ -119,7 +119,7 @@ header {
 }
 
 .logo__link {
-  color: var(--clr--secondary);
+  color: var(--clr--red);
   margin-left: .5em;
   font-size: var(--fs-900);
   font-weight: 700;
@@ -142,7 +142,7 @@ header {
 }
 
 .nav__link:hover {
-  color: var(--clr--secondary);
+  color: var(--clr--red);
 }
 
 
@@ -440,8 +440,8 @@ footer {
 
   .nav[data-visible] {
     display: block;
-    border-bottom: 3px solid var(--clr--secondary);
-    border-right: 1px solid var(--clr--secondary);
+    border-bottom: 3px solid var(--clr--red);
+    border-right: 1px solid var(--clr--red);
   }
 
   .nav__list {
@@ -580,7 +580,7 @@ footer {
   }
 
   .device-text {
-    border-bottom: 1px dotted var(--clr--secondary);
+    border-bottom: 1px dotted var(--clr--red);
   }
 
   .device-text p{
