@@ -406,7 +406,14 @@ footer {
   }
 
   .smartphone-wrapper p {
-    padding-right: .5em;
+    padding-right: .5em;  
+  }
+}
+
+@media (max-width: 800px) and (orientation: landscape) {
+  .nav__list {
+    gap: .5em;
+    font-size: var(--fs-400);
   }
 }
 
