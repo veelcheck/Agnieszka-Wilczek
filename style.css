@@ -359,7 +359,7 @@ iframe {
 
 .card-icon,
 .github-icon {
-  margin: 0 auto;
+  margin-inline: auto;
 }
 
 .github-icon {
