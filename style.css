@@ -424,6 +424,20 @@ iframe {
   background-color: var(--clr--blue--light);
 }
 
+.half {
+  position: relative;
+}
+
+.half::after {
+  background-color: var(--clr--blue--darker);
+  position: absolute;
+  content: '';
+  height: 20px;
+  width: 10px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px ;
+}
+
 /* footer*/
 
 footer {
