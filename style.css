@@ -432,8 +432,8 @@ iframe {
   background-color: var(--clr--blue--darker);
   position: absolute;
   content: '';
-  height: 20px;
-  width: 10px;
+  height: 100%;
+  width: 50%;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px ;
 }
@@ -536,6 +536,7 @@ footer {
     padding-bottom: 1em;
     font-size: var(--fs-400);
   }
+
 
   .smartphone {
     width: 180px;
