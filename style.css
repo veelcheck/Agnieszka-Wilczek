@@ -536,7 +536,8 @@ footer {
   .smartphone-wrapper p,
   .laptop-wrapper p,
   .java-text p,
-  .contact-text {
+  .contact-text,
+  .skills-progress__text {
     padding-left: 1em;
     padding-right: .5em;
     padding-bottom: 1em;
