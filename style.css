@@ -395,6 +395,12 @@ iframe {
   background-color: var(--clr--yellow--light);
 }
 
+.skills-progress__text {
+  padding-left: 2em;
+  padding-bottom: 2em;
+  font-size: var(--fs-500);
+}
+
 .skill-wrapper {
   display: flex;
   justify-content: center;
