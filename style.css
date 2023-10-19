@@ -222,7 +222,9 @@ header {
   justify-content: space-around;
   align-items: center;
   max-width: 80ch;
-  margin: 0 auto;
+  margin-inline: auto;
+  padding-bottom: 2em;
+  border-bottom: 1px dotted var(--clr--red);
 }
 
 .cannon {
@@ -563,6 +565,11 @@ footer {
     padding-bottom: 1em;
     font-size: var(--fs-400);
   }
+  
+  .battle-wrapper {
+    padding-bottom: 1em;
+  }
+ 
 
   .smartphone {
     width: 180px;
