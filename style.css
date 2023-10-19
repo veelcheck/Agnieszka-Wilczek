@@ -84,7 +84,7 @@ p {
   opacity: .9;
 }
 
-.external-link:hover {
+.external-link:hover, .external-link:focus {
   font-weight: 600;
 }
 
@@ -577,7 +577,7 @@ footer {
   }
   
   .battle-wrapper {
-    padding-bottom: 1em;
+    padding-top: 2em;
   }
  
 
