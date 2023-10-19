@@ -88,13 +88,16 @@ p {
   font-weight: 600;
 }
 
-.container,
-.container-footer {
+.container {
   width: 100%;
   max-width: 1200px;
   margin-inline: auto;
   padding-block: .75em;
   border-left: 2px solid var(--clr--red);
+}
+
+.container-nav {
+  padding-block: 0;
 }
 
 .d-flex {
@@ -117,6 +120,7 @@ p {
 header {
   background-color: var(--clr--blue--darker);
   font-family: var(--ff--additional);
+  height: 100px;
 }
 
 .logo__link {
@@ -145,7 +149,6 @@ header {
 .nav__link:hover {
   color: var(--clr--red);
 }
-
 
 .nav__toggle {
   display: none;
@@ -480,8 +483,7 @@ footer {
 }
 
 @media (max-width: 1300px) {
-  .container,
-  .container-footer {
+  .container {
     width: 90%;
   }
 
@@ -516,19 +518,27 @@ footer {
   }
 
   .nav {
-    display: none;
+    visibility: hidden;
     position: absolute;
     background-color: var(--clr--blue--darker);
     padding-block: 1.5em;
     inset: 5.8rem 0 auto;
     border-bottom-left-radius: 50% 20%;
     border-bottom-right-radius: 50% 20%; 
+    width: 150%;
+    top: -300px;
+    left: -25%;
+    transition: all .4s ease-in-out;
   }
 
   .nav[data-visible] {
-    display: block;
+    visibility: visible;
     border-bottom: 3px solid var(--clr--red);
-    border-right: 1px solid var(--clr--red);
+    top: 100px;
+  }
+
+  .container-nav[data-visible] {
+    border-left: transparent;
   }
 
   .nav__list {
