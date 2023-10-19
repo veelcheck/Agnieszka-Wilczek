@@ -205,16 +205,44 @@ header {
 .about_me {
   padding-left: 1em;
 }
+
+.text {
+  font-size: var(--fs-500);
+  padding-left: 2em;
+}
+
 /* section portfolio */
 
 .portfolio {
   background-color: var(--clr--blue--light);
 }
 
+.battle-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 80ch;
+  margin: 0 auto;
+}
+
+.cannon {
+  height: 50px;
+  filter: invert(35%);
+}
+
+.cannon--flipped {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.battle-text {
+  padding-right: 2em;
+  text-align: center;
+}
+
+
 .smartphone-wrapper p {
-  padding-left: 2em;
   padding-right: 4em;
-  font-size: var(--fs-500);
 }
 
 .smartphone {
@@ -266,9 +294,7 @@ iframe {
 .laptop-wrapper p,
 .java-text p, 
 .contact-text {
-  padding-left: 2em;
   padding-top: 2em;
-  font-size: var(--fs-500);
 }
 
 .contact-text-small {
@@ -396,9 +422,7 @@ iframe {
 }
 
 .skills-progress__text {
-  padding-left: 2em;
   padding-bottom: 2em;
-  font-size: var(--fs-500);
 }
 
 .skill-wrapper {
@@ -533,17 +557,12 @@ footer {
     display: none;
   }
 
-  .smartphone-wrapper p,
-  .laptop-wrapper p,
-  .java-text p,
-  .contact-text,
-  .skills-progress__text {
+  .text {
     padding-left: 1em;
     padding-right: .5em;
     padding-bottom: 1em;
     font-size: var(--fs-400);
   }
-
 
   .smartphone {
     width: 180px;
@@ -553,7 +572,7 @@ footer {
     border-bottom-width: 30px;
     border-radius: 18px;
     margin-inline: auto;
-    margin-bottom: 1em;
+    margin-bottom: 1em; 
   }
   
   .smartphone::before {
