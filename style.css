@@ -533,6 +533,7 @@ footer {
 
   .nav[data-visible] {
     visibility: visible;
+    padding-top: 0;
     border-bottom: 3px solid var(--clr--red);
     top: 100px;
   }
@@ -543,7 +544,7 @@ footer {
 
   .nav__list {
     display: grid;
-    gap: 1em;
+    gap: .5em;
     text-align: center;
     font-size: var(--fs-800);
   }

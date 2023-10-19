@@ -13,9 +13,6 @@ navToggle.addEventListener('click', () => {
   setTimeout(() => {
     containerNav.toggleAttribute('data-visible');
   }, 200);
-
-  setTimeout();
-  
 });
 
 currentTime();
