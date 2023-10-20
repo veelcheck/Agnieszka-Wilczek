@@ -20,6 +20,4 @@ navToggle.addEventListener('click', () => {
 currentTime();
 setInterval(currentTime, 1000);
 
-
 ScrollToTop();
-
