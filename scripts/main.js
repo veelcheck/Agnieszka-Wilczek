@@ -1,4 +1,6 @@
 import { currentTime } from "./clock.js";
+import { ScrollToTop } from "./goUpButton.js";
+
 
 const navToggle = document.querySelector('.nav__toggle');
 const nav = document.querySelector('.nav');
@@ -17,3 +19,7 @@ navToggle.addEventListener('click', () => {
 
 currentTime();
 setInterval(currentTime, 1000);
+
+
+ScrollToTop();
+

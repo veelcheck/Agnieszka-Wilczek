@@ -296,7 +296,7 @@ header {
 
 iframe {
   height: 100%;
-  width: 100%
+  width: 100%;
 }
 
 .laptop-wrapper p,
@@ -483,6 +483,31 @@ footer {
   color: var(--clr--primary--200);
   font-family: var(--ff--additional);
   text-align: right;
+  position: relative;
+}
+
+#go-up {
+  position: fixed;
+  width: 40px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: hsl(0, 88.1%, 32.9%, 0.8);
+  color: white;
+  bottom: 5px;
+  right: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  cursor: pointer;
+}
+
+#go-up:hover, #go-up:focus {
+  background-color: hsl(0, 88.1%, 32.9%);
+}
+
+#go-up .hide {
+  visibility: none;
 }
 
 @media (max-width: 1300px) {
