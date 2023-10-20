@@ -30,6 +30,7 @@ body {
   font-family: var(--ff--basic);
   font-size: var(--fs-400);
   color: var(--clr--blue--darker);
+  overflow: hidden;
 }
 
 h2,
